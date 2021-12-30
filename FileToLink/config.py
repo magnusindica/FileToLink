@@ -10,7 +10,7 @@ class Config:
         Session = ":memory:"
     App_Name = os.environ.get("rapidlinkgenerator")
     Port = int(os.environ.get("PORT"))
-    Archive_Channel_ID = int(os.environ.get("ARCHIVE_CHANNEL_ID"))
+    Archive_Channel_ID = int(os.environ.get("2892"))
     Start_Message = os.environ.get("Start_Message")
     Bot_Channel = os.environ.get("Bot_Channel_UserName")
     if Bot_Channel == "":
