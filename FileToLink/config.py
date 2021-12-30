@@ -2,13 +2,13 @@ import os
 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    Token = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("8631963"))
+    API_HASH = os.environ.get("2419ec7ba2219f33a15dc1254a6bd6d4")
+    Token = os.environ.get("5027263094:AAF_CQcAInaiQBlzp8N04t5kjCk72m-Alw8")
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
         Session = ":memory:"
-    App_Name = os.environ.get("APP_NAME")
+    App_Name = os.environ.get("rapidlinkgenerator")
     Port = int(os.environ.get("PORT"))
     Archive_Channel_ID = int(os.environ.get("ARCHIVE_CHANNEL_ID"))
     Start_Message = os.environ.get("Start_Message")
