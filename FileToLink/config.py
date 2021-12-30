@@ -10,7 +10,7 @@ class Config:
         Session = ":memory:"
     App_Name = os.environ.get("rapidlinkgenerator")
     Port = int(os.environ.get(""))
-    Archive_Channel_ID = int(os.environ.get("2892"))
+    Archive_Channel_ID = int(os.environ.get("1001680243984"))
     Start_Message = os.environ.get("hello")
     Bot_Channel = os.environ.get("")
     if Bot_Channel == "":
@@ -18,7 +18,7 @@ class Config:
     elif Bot_Channel.startswith("@"):
         Bot_Channel = Bot_Channel[1:]
 
-    Link_Root = f"https://{App_Name}.herokuapp.com/"
+    Link_Root = "https://{App_Name}.herokuapp.com/"
     Download_Folder = "Files"
     Dev_Channel = "shadow_bots"
     Bot_UserName = None  # The bot will set it after starting
