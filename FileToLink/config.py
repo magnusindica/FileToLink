@@ -5,14 +5,14 @@ class Config:
     API_ID = int(os.environ.get("8631963"))
     API_HASH = os.environ.get("2419ec7ba2219f33a15dc1254a6bd6d4")
     Token = os.environ.get("5027263094:AAF_CQcAInaiQBlzp8N04t5kjCk72m-Alw8")
-    Session = os.environ.get("Session_String")
+    Session = os.environ.get("")
     if Session is None or Session == "":
         Session = ":memory:"
     App_Name = os.environ.get("rapidlinkgenerator")
-    Port = int(os.environ.get("PORT"))
+    Port = int(os.environ.get("21"))
     Archive_Channel_ID = int(os.environ.get("2892"))
     Start_Message = os.environ.get("Start_Message")
-    Bot_Channel = os.environ.get("Bot_Channel_UserName")
+    Bot_Channel = os.environ.get("")
     if Bot_Channel == "":
         Bot_Channel = None
     elif Bot_Channel.startswith("@"):
