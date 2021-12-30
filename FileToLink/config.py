@@ -9,7 +9,7 @@ class Config:
     if Session is None or Session == "":
         Session = ":memory:"
     App_Name = os.environ.get("rapidlinkgenerator")
-    Port = int(os.environ.get(""))
+    Port = int(os.environ.get("22"))
     Archive_Channel_ID = int(os.environ.get("1001680243984"))
     Start_Message = os.environ.get("hello")
     Bot_Channel = os.environ.get("")
